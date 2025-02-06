@@ -5,18 +5,18 @@ import type React from "react"; // Import React
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "당신의 이름 - 포트폴리오",
-  description: "웹 개발자 포트폴리오",
+    title: "sunghwa - portfolio",
+    description: "Sunghwa's portfolio website",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <html lang="ko">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
+    return (
+        <html lang="ko">
+            <body className={inter.className}>{children}</body>
+        </html>
+    );
 }
